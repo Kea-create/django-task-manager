@@ -1,46 +1,28 @@
-# Django Task Manager
+#  Django Task Manager
 
-A colorful and simple Task Management web app built using Django. Users can register, log in, and manage their personal task list with priorities and due dates.
+A vibrant and user-friendly Task Management web app built using Django. Users can register, log in, and manage their personal task list with priorities, due dates, and status tracking.
 
 ---
 
 ##  Features
 
--  User Registration & Login
+- User Registration & Login
 -  Add, View, Complete, and Delete Tasks
--  Priority Badges (High, Medium, Low)
--  Due Date Tracking
--  Bootstrap 5 Responsive UI
--  Custom CSS Styling with Gradients
--  Ready to Deploy to PythonAnywhere or Render
+-  Priority Labels (High, Medium, Low)
+-  Due Date Display
+-  Bootstrap 5 + Custom CSS (Colorful UI)
+-  Responsive Design
+-  Ready to deploy to PythonAnywhere or Render
 
 ---
 
 ##  Screenshots
 
 ###  Register Page  
-![Register](screenshots/register.png)
+<img src="screenshots/register.png" alt="Register Page" width="400"/>
 
-###  Task List  
-![Task List](screenshots/task_list.png)
+###  Task List View  
+<img src="screenshots/task_list.png" alt="Task List Page" width="700"/>
 
-(You can take screenshots and place them in a `/screenshots/` folder.)
+> _Make_
 
----
-
-##  Tech Stack
-
-- **Python 3.11+**
-- **Django 5.x**
-- **HTML + Bootstrap 5**
-- **Custom CSS**
-- **SQLite (default Django DB)**
-
----
-
-##  Setup Instructions
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/django-task-manager.git
-   cd django-task-manager
